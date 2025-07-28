@@ -1,7 +1,7 @@
 apiVersion: v2
-name: external-secrets
+name: external-secrets-app
 version: 0.1.0
 dependencies:
   - name: external-secrets
     version: 0.18.2
-    repository: https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/master/charts
+    repository: https://charts.external-secrets.io/
